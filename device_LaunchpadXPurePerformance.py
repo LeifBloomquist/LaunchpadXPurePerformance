@@ -104,7 +104,7 @@ def PaintAllButtons():
                         PaintCell(cell, CurrentTheme().filled_color)
                 
                 case 2:   # Playing
-                    FlashCell(cell, CurrentTheme().playing_color, CurrentTheme().filled_color)
+                    FlashCell(cell, CurrentTheme().playing_color, CurrentTheme().playing_off_color)
                     
                 case 3:   # Cued, not playing
                     PulseCell(cell, CurrentTheme().cued_color)
