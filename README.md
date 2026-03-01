@@ -14,12 +14,28 @@ A minimalist FL Studio script for focused Performance Mode on the Launchpad X!
 ## Usage
 Note: The script is only active when the FL Project is in Performance Mode.
 
-* Use the **Capture MIDI** button to start/stop playback. The button
+* Use the **Capture MIDI** button to start/stop playback.
+* Use the **8x8 grid** to trigger and cue clips.
+* Use the **>** buttons on the right side to clear that particular row.
 * Press and hold the **Session** button for 1.5 seconds to "clear" the playback state of all cells.
+* Use the **Session** button for 1.5 seconds to "clear" the playback state of all cells.
+* TODO: use the **Arrow Buttons** to move the Performance Grid.
+* TODO: use the **Custom** button to change themes (see below) 
 
+## Status Indicators
+The **Novation Logo** will change color based on the script state:
+* Pulsing Orange: Not in Performance Mode
+* Solid Red: In Performance Mode, but not playing
+* Flashing Red: Performance Mode Active (flashes in time with the beat)
+
+The **Capture MIDI** button will change color based on the playback state:
+* Pulsing Orange: Not in Performance Mode
+* Solid Orange: In Performance Mode, but not playing
+* Flashing Yellow/Green/Green/Green: Performance Mode Active (Mimics FL Studio Fire colors)
 
 ## Themes
 TBD
+
 
 ## Known Issues
 The built-in "Flashing Colour" mode on the Launchpad X has wonky timing.  See [Issue #1](https://github.com/LeifBloomquist/LaunchpadXPurePerformance/issues/1) for workaround.
