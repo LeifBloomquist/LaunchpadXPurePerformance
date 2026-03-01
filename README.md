@@ -6,7 +6,7 @@ A minimalist FL Studio script for focused Performance Mode on the Launchpad X!
 
 > ...\Documents\Image-Line\FL Studio\Settings\Hardware\
 
-2. Under MIDI settings, set *both* LPX MIDI Devices to "Launchpad X Pure Performance", assign a MIDI Port Number, and enable "Send master sync".
+2. Under MIDI settings, set *both* LPX MIDI Devices to "Launchpad X Pure Performance", assign each a MIDI Port Number, and enable "Send master sync".
 
 ![MIDI Settings](https://raw.githubusercontent.com/LeifBloomquist/LaunchpadXPurePerformance/refs/heads/main/Screenshots/MIDISettings.png)
 
