@@ -16,7 +16,7 @@ Note: The script is only active when the FL Project is in Performance Mode.
 
 * Use the **Capture MIDI** button to start/stop playback.
 * Use the **8x8 grid** to trigger and cue clips.
-* Use the **>** buttons on the right side to clear that particular row.
+* Use the **>** buttons on the right side to end playback on that particular row.
 * Press and hold the **Session** button for 1.5 seconds to "clear" the playback state of all cells.
 * Use the **Session** button for 1.5 seconds to "clear" the playback state of all cells.
 * TODO: use the **Arrow Buttons** to move the Performance Grid.
@@ -45,4 +45,4 @@ The built-in "Flashing Colour" mode on the Launchpad X has wonky timing.  See [I
 The following repositories were really helpful references in understanding how to program the LaunchPad X.  Thanks!
 
 * [Launchpong-X](https://github.com/MaddyGuthridge/Launchpong-X) by Maddy Guthridge
-* [Novation-Launchpad-X-MK3](https://github.com/MetallicAsylum/Novation-Launchpad-X-MK3) by Metallic Aslylum / Maxwell Zentolight
+* [Novation-Launchpad-X-MK3](https://github.com/MetallicAsylum/Novation-Launchpad-X-MK3) by Metallic Asylum / Maxwell Zentolight
