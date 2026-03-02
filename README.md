@@ -1,5 +1,5 @@
 ## Launchpad X Pure Performance
-A minimalist FL Studio script for focused Performance Mode on the Launchpad X!
+A minimalist FL Studio script for focused Performance Mode on the Launchpad X, with customizable themes!
 
 ## Installation
 1. Download the ZIP and extract it to the following folder:
@@ -20,7 +20,7 @@ Note: The script is only active when the FL Project is in Performance Mode.
 * Press and hold the **Session** button for 1.5 seconds to "clear" the playback state of all cells.
 * Use the **Session** button for 1.5 seconds to "clear" the playback state of all cells.
 * Use the **Custom** button to change themes (see below) 
-* TODO: use the **Arrow Buttons** to move the Performance Grid.
+* Use the **Arrow Buttons** to move the Performance Grid.
 
 
 ## Status Indicators
@@ -34,8 +34,16 @@ The **Capture MIDI** button will change color based on the playback state:
 * Solid Orange: In Performance Mode, but not playing
 * Flashing Yellow/Green/Green/Green: Performance Mode Active (Mimics Akai FL Studio Fire Playback colors in time with the beat)
 
+
 ## Themes
-By pressing the **Custom** button, the Launchpad X will cycle through various color schemes.  Themes can be easily added and modified though the `themes.py` script.
+By pressing the **Custom** button, the Launchpad X will cycle through various color schemes.  Themes can be easily added and modified though the `themes.py` subscript.  
+
+Included example themes:
+
+| Launchpad S | Unicorn | Blood Red | Blue Ice
+| --- | --- | --- | --- |
+| ![Launchpad S](https://raw.githubusercontent.com/LeifBloomquist/LaunchpadXPurePerformance/refs/heads/main/Themes/launchpad-s.png) | ![Unicorn](https://raw.githubusercontent.com/LeifBloomquist/LaunchpadXPurePerformance/refs/heads/main/Themes/unicorn.png) | ![Blood Red](https://raw.githubusercontent.com/LeifBloomquist/LaunchpadXPurePerformance/refs/heads/main/Themes/blood-red.png) | ![Blue Ice](https://raw.githubusercontent.com/LeifBloomquist/LaunchpadXPurePerformance/refs/heads/main/Themes/blue-ice.png) 
+
 
 
 ## Known Issues
