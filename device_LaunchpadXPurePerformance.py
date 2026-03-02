@@ -119,7 +119,7 @@ def PaintAllButtons():
     # Paint the clip grid    
     for i, row in enumerate(CLIP_GRID):
         
-        loop_mode = playlist.getLiveLoopMode(i+1)   # Tracks indexed from 1
+        loop_mode = playlist.getLiveLoopMode(i+1+grid_offset_y)   # Tracks indexed from 1
         
         for j, cell in enumerate(row):
             
@@ -147,8 +147,8 @@ def PaintAllButtons():
     # Paint the side arrows    
     for i, cell in enumerate(RIGHT_ARROWS):
         
-        track_status = playlist.getLiveStatus(i+1, midi.LB_Status_Simple)   # Tracks indexed from 1
-        loop_mode = playlist.getLiveLoopMode(i+1)   # Tracks indexed from 1
+        track_status = playlist.getLiveStatus(i+1+grid_offset_y, midi.LB_Status_Simple)   # Tracks indexed from 1
+        loop_mode = playlist.getLiveLoopMode(i+1+grid_offset_y)   # Tracks indexed from 1
         
         # Playing
         match track_status:
@@ -201,7 +201,7 @@ def OnMidiIn(event):
     
     # Handle side arrow buttons    
     if event.data1 in RIGHT_ARROWS:
-        track = RIGHT_ARROWS.index(event.data1)
+        track = RIGHT_ARROWS.index(event.data1) + grid_offset_y
         
         # Stop the clips on this track
         playlist.triggerLiveClip(track+1,-1,midi.TLC_Fill)
